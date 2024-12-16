@@ -6,6 +6,7 @@ import List from './List.jsx';
 import MyComponent from './MyComponent.jsx';
 import Counter from './Counter.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import NewColorPicker from './NewColorPicker.jsx';
 
 function App() {
 
@@ -37,7 +38,8 @@ function App() {
     {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/>: null} */}
     {/* <MyComponent/>  On Chnage Event */}
     {/* <Counter/> useState*/}
-    <ColorPicker/>
+    {/* <ColorPicker/> */}
+    <NewColorPicker/>
     </>
   );
 }
