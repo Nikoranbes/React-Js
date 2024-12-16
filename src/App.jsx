@@ -34,8 +34,8 @@ function App() {
     {/* <UserGreeting isLoggedIn={false}/> */}
     {/* {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
     {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/>: null} */}
-    {/* <MyComponent/> */}
-    <Counter/>
+    <MyComponent/>
+    {/* <Counter/> */}
     </>
   );
 }
