@@ -1,7 +1,3 @@
-
-
-
-
 function Button(){
     const styles = {
             backgroundColor:" hsl(344, 77%, 61%)",
@@ -12,8 +8,13 @@ function Button(){
             cursor:" pointer",
           
     }
+    function Click(name) {
+        console.log(`Don't Click Me ${name}`);
+        
+    }
+
     return (
-        <button style={styles}>Click Me</button>
+        <button onClick={() => Click("Deepak")} style={styles}>Click Me</button>
     )
 }
 export default Button

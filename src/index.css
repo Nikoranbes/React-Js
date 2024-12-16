@@ -35,3 +35,65 @@
 .student p{
   margin: 0px;
 }
+
+.welcome-text{
+  font-size:2.5em;
+  background-color: rgb(28, 161, 59);
+  color: white;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+.login-alert{
+  font-size:2.5em;
+  background-color: rgb(237, 42, 35);
+  color: white;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+.list-category{
+  font-size:2.5em;
+  font-weight: bold;
+  color: rgb(42, 42, 42);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: rgb(43, 255, 0);
+}
+.list-items{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display{
+  font-size: 10em;
+  margin-bottom: 0;
+  margin-bottom: 50px;
+}
+.counter-button{
+  width:150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(204, 53, 96);
+  color: white;
+  cursor: pointer;
+}
+.counter-button:hover{
+  background-color: rgb(237, 114, 147);
+}
