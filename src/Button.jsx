@@ -6,7 +6,6 @@ function Button(){
             borderRadius: "5px",
             border: "none",
             cursor:" pointer",
-          
     }
     function Click(name) {
         console.log(`Don't Click Me ${name}`);

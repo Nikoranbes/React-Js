@@ -7,6 +7,9 @@ import MyComponent from './MyComponent.jsx';
 import Counter from './Counter.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import NewColorPicker from './NewColorPicker.jsx';
+import MyCar from './MyCar.jsx';
+import UpdateArray from './UpdateArray.jsx';
+import TodoList from './TodoList.jsx'
 
 function App() {
 
@@ -26,20 +29,23 @@ function App() {
   // ];
   return (
     <>
-    {/* <Card/> */}
-    {/* <Button/> */}
-    {/* <Student name="SpongeBob" age={20} isStudent={true} />
+    {/* <Card/>
+    <Button/>
+    <Student name="SpongeBob" age={20} isStudent={true} />
     <Student name="Patrick" age={42} isStudent={false} />
     <Student name="Sandy" age={50} isStudent={false} />
     <Student name="Crabby" age={28} isStudent={true} />
-    <Student name="Brad" /> */}
-    {/* <UserGreeting isLoggedIn={false}/> */}
-    {/* {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
-    {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/>: null} */}
-    {/* <MyComponent/>  On Chnage Event */}
-    {/* <Counter/> useState*/}
-    {/* <ColorPicker/> */}
+    <Student name="Brad" />
+    <UserGreeting isLoggedIn={true} username={"Halwa"} />
+    {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+    {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/>: null}
+    <MyComponent/>  
+    <Counter/>
+    <ColorPicker/>
     <NewColorPicker/>
+    <MyCar/>
+    <UpdateArray/> */}
+    <TodoList/>
     </>
   );
 }
